@@ -1,0 +1,28 @@
+.maindiv {
+  display: flex;
+  flex-direction: column; /* Sütun yönlü düzen */
+  align-items: center; /* Öğeleri dikeyde ortala */
+}
+
+.liste {
+  list-style: none;
+  padding: 0;
+}
+
+.liste li {
+  display: flex;
+  align-items: center; /* Öğeleri yatayda ortala */
+  margin-bottom: 10px; /* İsteğe bağlı: Öğeler arasına boşluk ekleyebilirsiniz */
+}
+
+.images {
+  margin-right: 20px; 
+  width: 100px;
+  height: auto;
+}
+
+
+.description{
+  margin-bottom: 5px;
+  font-size: smaller;
+}
